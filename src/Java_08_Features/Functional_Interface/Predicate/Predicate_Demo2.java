@@ -7,11 +7,11 @@ public class Predicate_Demo2 {
 	public static void main(String[] args) {
 		
 		String[] names= {"Anushka","Anupama","Deepika","Kajol","Katrina","Shushmita"};
-		Predicate<String> predicate=name -> name.charAt(0)=='A';
+		Predicate<String> predicate=name -> name.charAt(0)=='K';
 		for(String name:names)
 		{
 			if(predicate.test(name))
 				System.out.println(name);
-		}
+		} 
 	}
 }
