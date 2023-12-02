@@ -1,5 +1,7 @@
 package Java_08_Features.Method_Reference;
 
+import java.util.function.Consumer;
+import java.util.function.Function;
 import java.util.function.Supplier;
 
 public class ConstructorReferenceDemo {
@@ -11,6 +13,7 @@ public class ConstructorReferenceDemo {
 		Supplier<Doctor> supplier=Doctor::new;
 		Doctor doctor = supplier.get();
 		System.out.println(doctor.hashCode());
+		
 	}
 	
 }

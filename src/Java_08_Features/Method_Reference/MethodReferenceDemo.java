@@ -1,6 +1,7 @@
 package Java_08_Features.Method_Reference;
 
 import java.util.function.Consumer;
+import java.util.function.Supplier;
 
 @FunctionalInterface
 interface MyInterface{
@@ -19,7 +20,7 @@ public class MethodReferenceDemo {
 		consumer.accept("Hi");
 		
 		MethodReferenceDemo.m2(); //before 1.8
-		MethodReferenceDemo:m2(); 
+		MethodReferenceDemo:m2(); //after 1.8
 		
 		MyInterface mi=MethodReferenceDemo::m2; //method reference
 		mi.m1();

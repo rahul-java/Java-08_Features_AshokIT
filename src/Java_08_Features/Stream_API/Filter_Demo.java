@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class Demo2 {
+public class Filter_Demo {
 
 	public static void main(String[] args) {
 		

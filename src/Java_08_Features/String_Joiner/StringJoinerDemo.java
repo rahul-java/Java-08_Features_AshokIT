@@ -12,7 +12,7 @@ public class StringJoinerDemo {
 		sj.add("Kumar");
 		sj.add("Pandey");
 		
-		System.out.println(sj);
+		System.out.println(sj);  //Rahul-Kumar-Pandey
 		
 		StringJoiner sj2 = new StringJoiner("-","(",")");
 		
@@ -24,6 +24,6 @@ public class StringJoinerDemo {
 		sj2.add("Kumar");
 		sj2.add("Pandey");
 		
-		System.out.println(sj2);
+		System.out.println(sj2);  //(Rahul-Kumar-Pandey)
 	}
 }

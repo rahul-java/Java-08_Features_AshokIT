@@ -17,5 +17,6 @@ public class Consumer_Demo {
 		
 		//to iterate the list using foreach() 
 		numbers.forEach(i->System.out.println(i));  // this lambda works as a consumer
+		
 	}
 }

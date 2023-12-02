@@ -3,7 +3,7 @@ package Java_08_Features.Stream_API;
 import java.util.ArrayList;
 import java.util.stream.Stream;
 
-public class Demo1 {
+public class Stream_Demo {
 
 	public static void main(String[] args) {
 		
